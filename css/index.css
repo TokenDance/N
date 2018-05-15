@@ -61,21 +61,16 @@ a {
 }
 
 .links {
-	width: 1080px;
+	width: 1200px;
 	height: auto;
 	margin: 0 auto;
 }
 
-.links dl {
-	width: 1080px;
-	height: 30px;
-	margin: 10px 0;
-}
-
 .links dl dt {
 	float: left;
-	width: 120px;
-	height: 30px;
+	width: 290px;
+	padding-left: 5px;
+	padding-top: 5px;
 }
 
 .links dl dt a {
@@ -85,27 +80,10 @@ a {
 	background: #ffe1e1;
 	color: #992222;
 	text-align: center;
-	line-height: 30px;
+	line-height: 60px;
 }
 
 .links dl dt a:hover {
 	background: #ffff80;
 	color: #0080ff;
-}
-
-.links dl dd {
-	float: left;
-	width: 130px;
-	height: 25px;
-	text-align: center;
-	padding-top: 5px;
-}
-
-.links dl dd a {
-	color: #992222;
-	display: inline-block;
-}
-
-.links dl dd a:hover {
-	color: #ff0000;
 }
