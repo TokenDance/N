@@ -12,6 +12,26 @@
 	src: url("font/PressStart2P.ttf")
 }
 </style>
+<script type="text/javascript">
+function changeBGC(){
+	var myDate = new Date();
+	var h = myDate.getHours();       // 获取当前小时数 (0-23)
+	var m = myDate.getMinutes();     // 获取当前分钟数 (0-59)
+	var s = myDate.getSeconds();     // 获取当前秒数 (0-59)
+	if(h<10){
+		h = "0"+h;
+	}
+	if(m<10){
+		m = "0"+m;
+	}
+	if(s<10){
+		s = "0"+s;
+	}
+    var rgbColor = "#"+h+m+s;
+    document.body.style.background = rgbColor;
+}
+setInterval("changeBGC()","500");
+</script>
 </head>
 <body>
 	<div class="links">
