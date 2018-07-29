@@ -11,6 +11,11 @@
 	font-family: PressStart2P;
 	src: url("font/PressStart2P.ttf")
 }
+.bgimg {
+	background:url("https://photo.tuchong.com/1415177/f/442171707.jpg") no-repeat;
+    background-size: 100%;
+}
+
 </style>
 <script type="text/javascript">
 function changeBGC(){
@@ -29,11 +34,12 @@ function changeBGC(){
 	}
     var rgbColor = "#"+h+m+s;
     document.body.style.background = rgbColor;
+    document.getElementById("rgb").innerHTML = rgbColor;
 }
-setInterval("changeBGC()","500");
+//setInterval("changeBGC()","500");
 </script>
 </head>
-<body>
+<body class="bgimg">
 	<div class="links">
 		<div class="head">
 			<div class="logo fl">
