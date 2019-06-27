@@ -21,3 +21,6 @@
 > -  [数据产品](https://n.notalk.cc/big-data-app.html)
 > -  [/* 你看不见 */](https://n.notalk.cc/18+.html)
 > -  [导航网站 ](https://n.notalk.cc/navigation.html)
+
+
+**⚠️看到这个仓库可以在issue中提交资源链接**
