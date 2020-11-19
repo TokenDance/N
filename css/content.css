@@ -1,10 +1,36 @@
+@font-face {
+	font-family: 'Dinkie';
+	src: url('../font/DinkieBitmap-9px.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Dinkie';
+	font-style: italic;
+	src: url('../font/DinkieBitmap-9pxItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Dinkie Code';
+	src: url('../font/DinkieBitmap-9pxCode.woff2') format('woff2');
+}
+
+:root {
+	--font: 'Dinkie', ui-monospace, Menlo, Consolas, monospace, -apple-system, BlinkMacSystemFont, "Microsoft Yahei";
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 15px;
+}
+
 body {
+    line-height: 1.6rem;
+	hanging-punctuation: first allow-end;
     padding: 0;
     margin: 0;
     background: #F5F4F2;
-    font-size: 14px;
     color: #992222;
-    font-family: sans-serif;
+    font-family: var(--font);
 }
 
 ul, dl, dt, dd, p {
