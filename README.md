@@ -12,14 +12,10 @@
 > -  [技术刷题 (算法)](https://n.notalk.cc/tech-code-war.html)
 > -  [电子书资源](https://n.notalk.cc/tech-doc.html)
 > -  [工具](https://n.notalk.cc/tools.html)
-> -  [工作求职](https://n.notalk.cc/jobs.html)
 > -  [技术论坛 ](https://n.notalk.cc/tech-bbs.html)
 > -  [英语学习](https://n.notalk.cc/english.html)
-> -  [房屋装修](https://n.notalk.cc/fitment.html)
 > -  [摄影](https://n.notalk.cc/photo.html)
 > -  [互联网广告](https://n.notalk.cc/ad.html)
-> -  [数据产品](https://n.notalk.cc/big-data-app.html)
-> -  [/* 你看不见 */](https://n.notalk.cc/18+.html)
 > -  [导航网站 ](https://n.notalk.cc/navigation.html)
 
 
