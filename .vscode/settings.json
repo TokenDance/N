@@ -1,1 +1,8 @@
-{}
+{
+  "btc-price-watch.updateInterval": 4000,
+  "btc-price-watch.coin": [
+    "ethusdt",
+    "btcusdt",
+    "ksmusdt"
+  ]
+}
