@@ -22,9 +22,6 @@
         <ul>
             <li><a href="http://www.yinfans.com/">音范丝</a>
             <li><a href="http://www.hao6v.com/">66影视</a>
-            <li></li>
-            <li></li>
-            <li></li>
 
         </ul>
         <h2>壁纸</h2>
@@ -32,8 +29,6 @@
             <li><a href="http://simpledesktops.com/">SimpleDesktops</a>
             <li><a href="https://alpha.wallhaven.cc/">WallHaven</a>
             <li><a href="https://mobile.alphacoders.com/">Alphacoders</a>
-            <li>
-            <li>
         </ul>
         <h2>图片</h2>
         <ul>
@@ -48,10 +43,6 @@
             <li><a href="https://kaboompics.com/">Kaboompics</a>
             <li><a href="http://www.lifeofpix.com/">LifeofPix</a>
             <li><a href="http://viviennemok.foliodrop.com/">Portfolio</a>
-            <li>
-            <li>
-            <li>
-            <li>
         </ul>
 
         <h2>图标</h2>
@@ -62,18 +53,27 @@
             <li><a href="https://www.iconfinder.com/">Iconfinder</a>
             <li><a href="https://thenounproject.com/">Icons</a>
             <li><a href="http://www.stickpng.com/">stickpng</a>
-            <li>
-            <li>
-            <li>
-            <li>
         </ul>
         <h2>视频</h2>
         <ul>
             <li><a href="https://www.videvo.net/">videvo</a>
             <li><a href="http://www.lifeofvids.com/">lifeofvids</a>
             <li><a href="https://videos.pexels.com/">pexelsV</a>
-            <li>
-            <li>
         </ul>
     </div>
+    <script type="text/javascript">
+        function addLi() {
+            var uls = document.getElementsByTagName("ul");
+            for (var i = 0; i < uls.length; i++) {
+                var lis = uls[i].getElementsByTagName("li");
+                var sizeOfLi = lis.length;
+                var remainder = sizeOfLi % 5;
+                var appendSize = 5 - (remainder > 0 ? remainder : 5);
+                for (var j = 0; j < appendSize; j++) {
+                    uls[i].innerHTML += "<li><br/>";
+                }
+            }
+        }
+        window.onload = addLi();
+    </script>
 </body>

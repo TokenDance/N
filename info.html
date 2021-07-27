@@ -9,7 +9,7 @@
 
 <body>
     <div class="content">
-        <h2>科技资讯</h2>
+        <h2>资讯</h2>
         <ul>
             <li><a href="https://news.ycombinator.com/">Hacker News</a>
             <li><a href="http://www.chiphell.com/">Chip Hell</a>
@@ -18,44 +18,24 @@
             <li><a href="https://www.ifanr.com/">爱范儿</a>
             <li><a href="http://www.qdaily.com/"> 好奇心日报</a>
             <li><a href="https://www.waerfa.com/">玩法儿</a>
-            <li>
-            <li>
-            <li>
-        </ul>
-        <h2>创业资讯</h2>
-        <ul>
             <li><a href="https://36kr.com/">36氪</a>
-            <li><a href="http://www.iheima.com/">i黑马</a>
-            <li><a href="http://www.newseed.cn/">新芽</a>
-            <li><a href="http://www.tisiwi.com/">天使湾</a>
-            <li><a href="https://www.itjuzi.com/">IT 桔子</a>
-            <li><a href="http://www.iresearch.cn/">艾瑞网</a>
             <li><a href="http://www.leiphone.com/">雷锋网</a>
-            <li>
-            <li>
-            <li>
-        </ul>
-
-        <h2>装修</h2>
-        <ul>
             <li><a href="http://decomyplace.com/">DECOmyplace</a>
             <li><a href="https://www.kujiale.com/">酷家乐</a>
             <li><a href="https://www.archdaily.cn/cn">ArchDaily</a>
             <li><a href="http://www.ideamass.com.cn/">ideaMass 灵感集</a>
             <li><a href="http://www.pchouse.com.cn/">PChouse</a>
             <li><a href="http://home.19lou.com/hangzhou">19楼装修</a>
-            <li><a href="https://zhuanlan.zhihu.com/zhufaner">住范儿</a>
-            <li><a href="https://zhuanlan.zhihu.com/jiayaosu">你的理想家</a>
-            <li><a href="https://zhuanlan.zhihu.com/zhuang">装修风云</a>
-            <li><a href="https://zhuanlan.zhihu.com/qiangmian">单毅讲装修</a>
-            <li><a href="https://zhuanlan.zhihu.com/c_53550268">装修 1+1</a>
-            <li><a href="https://zhuanlan.zhihu.com/yishome">白垩纪工作室</a>
-            <li>
-            <li>
-            <li>
         </ul>
-     
-
+        <h2>投研</h2>
+        <ul>
+            <li><a href="https://yanbaoke.com/index">研报客</a>
+            <li><a href="https://www.ulapia.com/">乌拉邦</a>
+            <li><a href="https://www.hanghangcha.com/">行行查</a>
+            <li><a href="http://www.767stock.com/">乐晴智库</a>
+            <li><a href="https://www.fxbaogao.com/">发现报告</a>
+            <li><a href="http://icopy.site/">抄作业</a>
+        </ul>
         <h2>导航网站</h2>
         <ul>
             <li><a href="http://www.dajiadaohang.com/">打假导航</a></li>
@@ -75,4 +55,19 @@
             <li><a href="https://sx.supengjun.com/">睡醒</a></li>
         </ul>
     </div>
+    <script type="text/javascript">
+        function addLi() {
+            var uls = document.getElementsByTagName("ul");
+            for (var i = 0; i < uls.length; i++) {
+                var lis = uls[i].getElementsByTagName("li");
+                var sizeOfLi = lis.length;
+                var remainder = sizeOfLi % 5;
+                var appendSize = 5 - (remainder > 0 ? remainder : 5);
+                for (var j = 0; j < appendSize; j++) {
+                    uls[i].innerHTML += "<li><br/>";
+                }
+            }
+        }
+        window.onload = addLi();
+    </script>
 </body>
